@@ -1,12 +1,12 @@
-package com.node;
+package com.node.sort;
 
+import com.node.models.*;
+import com.node.sort.TopologicalSorter;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
 import java.util.LinkedList;
-import java.util.List;
-import java.util.Stack;
 
 public class TopologicalSorterTest {
     private TopologicalSorter topologicalSorter;

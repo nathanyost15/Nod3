@@ -1,4 +1,6 @@
-package com.node;
+package com.node.sort;
+
+import com.node.models.DirectedNode;
 
 import java.util.*;
 
