@@ -1,4 +1,4 @@
-package com.node;
+package com.node.models;
 
 import java.util.List;
 
