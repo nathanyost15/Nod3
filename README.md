@@ -9,4 +9,5 @@ So I was playing a game called **Factorio**, and realized its doing exactly this
 This sort will take in an intial DirectedNode, and then recursively find the leaves and build upward towards the root (or beginning node that you initially inputted).
 Along the way we reverse the ordering before adding the nodes to the main list, as well as the final step when we add all the nodes to the initial root node. This will essentially give us an upside down tree of original starting from each of the leaf nodes.
 
+<h2>Nuances to consider</h2>
 This current implementation has a slight nuance in that if two seperate nodes, lets say A and B, require the same dependencies it can be duplicated within the final list returned. In the example image above if we try to build SolarPanels it will return GearNode twice, because its required by BeltNode AND InserterNode.
