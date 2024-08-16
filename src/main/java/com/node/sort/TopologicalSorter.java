@@ -18,4 +18,10 @@ public class TopologicalSorter {
         Collections.reverse(directedNodes);
         return directedNodes;
     }
+
+    public void pushAll(Stack<DirectedNode> nodeStack, List<DirectedNode> directedNodes) {
+        for(DirectedNode node : directedNodes) {
+            nodeStack.push(node);
+        }
+    }
 }
